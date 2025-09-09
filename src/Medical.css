@@ -1,0 +1,46 @@
+.medical-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f97316;
+  color: white;
+}
+
+.back-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #16a34a;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #15803d;
+}
+
+.medical-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 20px;
+  background-color: #f97316;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
