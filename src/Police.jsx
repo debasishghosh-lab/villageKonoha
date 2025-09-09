@@ -20,13 +20,15 @@ function Police() {
         <Card
           img={Itachi}
           title="Itachi Uchiha"
-          text="Elite Anpu Member"
+          text="
+          Self-sacrifice… a nameless shinobi who protects peace within its shadow. That is a true shinobi.
+          "
           className={styles.card}
         />
         <Card
           img={Sasuke}
           title="Sasuke Uchiha"
-          text="The Man Who Protects The Village From Shadow"
+          text="No man chooses evil because it is evil; he only mistakes it for happiness"
           className={styles.card}
         />
       </div>
